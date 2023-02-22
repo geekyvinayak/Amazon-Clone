@@ -1,0 +1,304 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+.search {
+    margin-left: 5rem;
+    margin-top: 9px;
+}
+
+.searchbar {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    background-color: rgb(238, 235, 235);
+}
+
+.searchbar:focus {
+    border: 1px solid grey;
+    background-color: white;
+    outline: 1px solid lightgray;
+}
+
+::placeholder {
+    font-size: 0.8rem;
+}
+
+#language {
+    display: none;
+}
+
+#en:hover>#language {
+    width: 135px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 3rem;
+    z-index: 10000;
+    color: black;
+    background-color: white;
+}
+
+#signupper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#signlower {
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#country-item1 {
+    display: flex;
+}
+
+#sidenav{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+}
+
+#main {
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+
+#cards {
+
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: -1;
+}
+
+#card-items {
+    opacity: 1;
+
+    height: 90%;
+    width: 20%;
+    padding: 4px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.src {
+    display: inline-block;
+
+    width: 500px;
+}
+
+#header {
+    height: 8%;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-bottom: 6px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    font-family: 'Amazon Ember Italic 250', sans-serif;
+}
+
+#header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#header>div:hover {
+    border: 2px solid gray;
+}
+
+#nav {
+    height: 4%;
+    background-color: rgb(30, 37, 70);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+
+#nav>div:hover {
+    border: 2px solid gray;
+}
+
+#mid {
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sideitem1{
+    background-color: violet;
+    width: 100%;
+    height: 100px;
+}
+#midleft {
+    width: 35%;
+    height: 100%;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#midright {
+    width: 65%;
+    height: 100%;
+    color: white;
+    background-color: blueviolet;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    height: 5%;
+    background-color: pink;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navitem {
+    height: 97%;
+    margin-left: 10px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image {
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#country-item {
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.next-btn,
+.prev-btn {
+  height: 5rem;
+  margin-top: 63rem;
+  position: absolute;
+  border: none;
+  z-index: 1;
+  padding: 1rem;
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+  opacity: 0.7;
+}
+.prev-btn {
+  left: 7rem;
+}
+.next-btn {
+  right: 10.5rem;
+}
+.card-1 {
+  position: absolute;
+  margin-top: 60rem;
+  min-height: 20rem;
+  /* / left: 5rem; / */
+  padding: 1rem;
+  width: 90%;
+  overflow-x: scroll;
+scroll-behavior: smooth;
+  /* / margin-inline: 1rem; / */
+  margin-left: 3rem;
+}
+.card-1 .card {
+  flex-shrink: 0;
+
+}
+.card-1 img {
+  margin-top: 1rem;
+  align-self: center;
+  width: 40%;
+  height: 40%;
+  transition: overflow-x 10s;
+  transition-property: overflow-x;
+}
+#scroll{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+#cardbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    scroll-behavior: smooth;
+    height: 90%;
+}
+
+#cardbox .card{
+    flex-shrink: 0;
+    margin: 30px;
+    border: 2px black;
+    height: 100%;
+    
+}
+
+.card img{
+    width: 100px;
+    height: 40%;
+    align-self: center;
+}

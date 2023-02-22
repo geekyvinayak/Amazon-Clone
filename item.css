@@ -1,0 +1,38 @@
+#itemmain{
+    height: 100vh;
+    display: flex;
+}
+
+#itemmain1{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#itemmain1 img{
+   margin-top: 5px;
+}
+#itemmain2{
+    width: 40%;
+    background-image: url(item-1l.jpg);
+    background-color: grey;
+    height: 100%;
+}
+#itemmain3{
+    width: 27%;
+    height: 100%;
+    overflow-x: scroll;
+    padding: 5px;
+}
+
+#itemmain3::-webkit-scrollbar {
+    display: none;
+}
+
+#itemmain4{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 100%;
+}

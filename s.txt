@@ -1,0 +1,90 @@
+<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+                            id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                            <div class="offcanvas-header bg-dark">
+                                <h5 class="offcanvas-title text-white" id="staticBackdropLabel"><i
+                                        class="bi bi-person-circle" style="font-size: 40px;"></i>&emsp;<a
+                                        href="#">Hello, Sign in</a></h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="items">
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+ <li class="clr"><a href="#" class="all" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                            aria-controls="staticBackdrop">
+                            <i class="bi bi-list"></i>&nbsp;All
+                        </a>
+
+                        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+                            id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                            <div class="offcanvas-header bg-dark">
+                                <h5 class="offcanvas-title text-white" id="staticBackdropLabel"><i
+                                        class="bi bi-person-circle" style="font-size: 40px;"></i>&emsp;<a
+                                        href="#">Hello, Sign in</a></h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="items">
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
